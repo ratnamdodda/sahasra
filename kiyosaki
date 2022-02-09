@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script>
+    // fill your code here
+        function welcome()
+        {
+            var result=document.getElementById("name").value;
+            document.getElementById("result").innerHTML="Welcome "+result;
+        }
+    </script>
+</head>
+<body align="center">
+  <!-- fill your code here -->
+  <h1> Welcome Page</h1>
+  Name <input type="text" id="name"></input><br>
+  <input type="button" value="post" id="post" onclick="welcome()"></input>
+  <h2><div id="result" > </div></h2>
+ 
+
+</body>
+</html>
